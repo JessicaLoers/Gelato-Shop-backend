@@ -17,11 +17,7 @@ const postGelato = async (req, res) => {
     name: req.body.name,
     type: req.body.type,
     vegan: req.body.vegan,
-    // name: req.body.name,
-    // type: req.body.type,
-    // vegan: req.body.vegan,
-    // calories: req.body.calories,
-    // specials: req.body.specials,
+    calories: req.body.calories,
   })
 
   try {
